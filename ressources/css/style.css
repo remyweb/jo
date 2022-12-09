@@ -44,9 +44,19 @@ nav {
   position: fixed;
 }
 
+header nav strong {
+  font-weight: 900;
+}
+
 nav h2{
   position: absolute;
   left: 20px;
+  
+}
+
+#bouton-menu {
+  position: absolute;
+  right: 20px;
 }
 
 header h1{
@@ -57,8 +67,44 @@ header h1{
   font-size: 115px;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  left: 51%;
+  transform: translate(-51%,-50%);
   color: white;
   mix-blend-mode: saturation;
+  animation: animedate 2s cubic-bezier(.25,.46,.45,.94);
  }
+
+
+
+
+
+
+
+
+
+/* Animation */
+
+@-webkit-keyframes animedate {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animedate {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
