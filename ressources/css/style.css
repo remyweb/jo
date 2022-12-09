@@ -51,12 +51,18 @@ header nav strong {
 nav h2{
   position: absolute;
   left: 20px;
-  
 }
 
 #bouton-menu {
   position: absolute;
+  z-index: 2;
   right: 20px;
+  height: 50px;
+  width: 50px;
+  background: white;
+  border: 1px solid #DCDCDC;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 header h1{
