@@ -53,6 +53,17 @@ nav h2{
   left: 20px;
 }
 
+#menu{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  clip-path: circle(15px at calc(100% - 45px) 45px);
+  transition: all 0.3s ease-in-out;
+}
+
 .bouton-menu {
   position: absolute;
   z-index: 2;
@@ -98,6 +109,10 @@ nav h2{
 #active:checked + .bouton-menu:after {
 	transform: rotate(-45deg);
   border-color: #000;
+}
+
+#active:checked ~ #menu{
+  clip-path: circle(75%);
 }
 
 header h1{
