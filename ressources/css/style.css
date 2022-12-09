@@ -25,7 +25,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: url("./ressources/images/fond.png"), #000000 ;
+    background: url("./ressources/images/fond.webp"), #000000 ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
