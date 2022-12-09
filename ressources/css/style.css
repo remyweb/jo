@@ -53,6 +53,10 @@ nav h2{
   left: 20px;
 }
 
+input[type="checkbox"]{
+  display: none;
+}
+
 #menu{
   position: fixed;
   right: 0;
